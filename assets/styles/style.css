@@ -17,4 +17,5 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #262626;
 }
