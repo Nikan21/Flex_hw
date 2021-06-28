@@ -21,21 +21,21 @@ header {
   background-color: #262626;
 }
 
-div{
+div {
   color: white;
 }
 
-div:nth-child(1){
+div:nth-child(1) {
   font-size: 23px;
   font-style: italic;
 }
 
-div:nth-child(n):not(:first-child):not(:last-child){
- font-size: 15px;
- font-weight: 1000;
+div:nth-child(n):not(:first-child):not(:last-child) {
+  font-size: 15px;
+  font-weight: 1000;
 }
 
-div:nth-child(6){
+div:nth-child(6) {
   font-size: 12px;
   font-weight: 700;
   border: 1px solid white;
