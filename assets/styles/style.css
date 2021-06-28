@@ -9,10 +9,10 @@ body {
 }
 
 header {
+  height: 10vh;
   position: fixed;
   left: 0;
   right: 0;
-  height: 10vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -36,8 +36,8 @@ div:nth-child(n):not(:first-child):not(:last-child) {
 }
 
 div:nth-child(6) {
+  padding: 15px 30px;
   font-size: 12px;
   font-weight: 700;
   border: 1px solid white;
-  padding: 15px 30px;
 }
