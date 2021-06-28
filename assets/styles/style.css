@@ -28,3 +28,8 @@ div:nth-child(1){
   font-size: 23px;
   font-style: italic;
 }
+
+div:nth-child(n):not(:first-child):not(:last-child){
+ font-size: 15px;
+ font-weight: 1000;
+}
