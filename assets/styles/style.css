@@ -26,7 +26,7 @@ header {
 ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   margin: 0;
@@ -44,6 +44,8 @@ a {
 }
 
 .button1{
+  margin-left: 20px;
+  margin-right: 30px;
   font-style: italic;
   font-size: 25px;
 }
@@ -58,13 +60,16 @@ a {
   font-weight: 700;
   border: 1px solid white;
   padding: 15px 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+
 }
 
 .button6:hover{
   background-color: gray;
 }
 
-.test{
+.sub_window{
   display: flex;
   flex-wrap: wrap;
 }
